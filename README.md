@@ -1,5 +1,8 @@
 # AI Assistant Streamlit App
 
+![Screenshot of the AI Assistant Streamlit App](Graphics/Screenshot%202025-05-10%20at%2008.24.25.png)
+*Screenshot: Main interface of the AI Assistant Streamlit App*
+
 This project is a modern, visually appealing Streamlit web application that allows users to interact with large language models (LLMs) from both OpenAI (GPT-3.5, GPT-4) and locally hosted Ollama models. The app features a user-friendly interface for generating AI-powered responses in various formats.
 
 ## Features & UI Elements
