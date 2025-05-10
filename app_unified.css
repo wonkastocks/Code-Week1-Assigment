@@ -1,0 +1,119 @@
+body {
+    background: #e3f0ff;
+}
+
+/* Sidebar (Model selector) */
+section[data-testid="stSidebar"] {
+    background: #d0e8ff !important;
+}
+
+/* Sidebar label and text */
+section[data-testid="stSidebar"] label, section[data-testid="stSidebar"] span, section[data-testid="stSidebar"] div {
+    color: #1e355b !important;
+}
+
+/* Sidebar header */
+section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h1, section[data-testid="stSidebar"] h3 {
+    color: #184c7d !important;
+}
+
+.custom-generate-btn {
+    background: #e53935 !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+    padding: 0.15em 2.2em !important;
+    font-weight: 600;
+    font-size: 0.95em !important;
+    border: 1.5px solid #b6d6ff !important;
+    margin-right: 0.3em !important;
+    box-shadow: 0 2px 8px rgba(80, 140, 255, 0.07);
+    height: 1.8em !important;
+    min-height: 1.8em !important;
+    max-height: 1.8em !important;
+    line-height: 1.1em !important;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.custom-generate-btn:hover {
+    background: #b71c1c !important;
+}
+
+
+/* Main area */
+.main-area {
+    background: #eaf4ff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(80, 140, 255, 0.10);
+    padding: 1.2em 1.2em 1.2em 1.2em;
+    margin: 1.2em auto 0.7em auto;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, label, .stTextInput label, .stTextArea label, .stRadio label {
+    color: #184c7d !important;
+    font-weight: 700;
+}
+
+.stTextInput input, .stTextArea textarea {
+    background: #e7f2ff !important;
+    border-radius: 10px !important;
+    border: 1.3px solid #b6d6ff !important;
+    color: #1e355b !important;
+}
+
+.stButton button {
+    background: #e53935 !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+    padding: 0.15em 2.2em !important;
+    font-weight: 600;
+    font-size: 0.95em !important;
+    border: 1.5px solid #b6d6ff !important;
+    margin-right: 1.2em !important;
+    box-shadow: 0 2px 8px rgba(80, 140, 255, 0.07);
+    height: 1.8em !important;
+    min-height: 1.8em !important;
+    max-height: 1.8em !important;
+    line-height: 1.1em !important;
+}
+
+.stButton button:hover {
+    background: #eaf4ff !important;
+    color: #2a3c5a !important;
+    border: 1.5px solid #6ec1e4 !important;
+}
+
+.stRadio > div {
+    justify-content: center;
+}
+
+.response-label {
+    font-weight: 600;
+    color: #184c7d;
+    font-size: 1.09em;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+
+.response-box {
+    background: #eaf4ff;
+    border-radius: 8px;
+    padding: 0.8em 1em;
+    color: #1e355b;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+    font-size: 1.09em;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(80, 140, 255, 0.07);
+}
+
+.stAlert, .stAlert-success {
+    border-radius: 8px !important;
+    background: #eaf4ff !important;
+    color: #1e355b !important;
+    border: 1.5px solid #b6d6ff !important;
+    text-align: center !important;
+}

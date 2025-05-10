@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.streamlit/
+OpenAI-API-KEY
+notes
