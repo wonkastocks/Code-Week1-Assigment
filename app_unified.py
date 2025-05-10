@@ -19,6 +19,10 @@ with open("app_unified.css") as f:
 import subprocess
 
 def get_ollama_models():
+    """
+    Returns a list of allowed Ollama models that are currently available on the local system.
+    Filters the list to only include models specified in `allowed_models` and present in `ollama list`.
+    """
     allowed_models = [
         "dolphin-phi:latest",
         "gemma3:1b",
@@ -45,6 +49,9 @@ def get_ollama_models():
         return []
 
 def get_model_options():
+    """
+    Returns a combined list of OpenAI and available Ollama models for the dropdown selector.
+    """
     openai_models = ["gpt-3.5-turbo", "gpt-4"]
     ollama_models = get_ollama_models()
     return openai_models + ollama_models
@@ -58,6 +65,9 @@ selected_model = st.sidebar.selectbox(
 
 # Only show API key input for OpenAI models
 def show_api_key_input():
+    """
+    Returns True if the selected model is an OpenAI GPT model (requires API key input).
+    """
     return selected_model.startswith("gpt-")
 
 openai_api_key = ""
